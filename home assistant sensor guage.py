@@ -16,7 +16,6 @@ api_endpoint_outside_temp = f"http://{hass_server}/api/states/sensor.outside_tem
 
 # Home Assistant API token
 API_TOKEN="YOUR_API_TOKEN"
-#api_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI1NTcyYjFkNzBjZWM0M2MwOTI4ZWZjZDY1ZWU4YTdiYyIsImlhdCI6MTcxNTU1MTEyNiwiZXhwIjoyMDMwOTExMTI2fQ.WDi9zNqojdYWyKLwkwlAzJOAS-YQyfBlOE8sLjvcjhc"
 
 # Headers for API request
 headers = {"Authorization": f"Bearer {api_token}"}
